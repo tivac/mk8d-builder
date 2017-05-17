@@ -1,402 +1,322 @@
-[
- {
-   "Kart Part": "Standard Kart",
-   "Speed": 0,
-   "Acceleration": 0,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0,
-   "Total": 0
- },
- {
-   "Kart Part": "Pipe Frame",
-   "Speed": -0.5,
-   "Acceleration": 0.5,
-   "Weight": -0.25,
-   "Handling": 0.5,
-   "Traction/Grip": 0.25,
-   "Mini-Turbo": 0.5,
-   "Total": 1
- },
- {
-   "Kart Part": "Mach 8",
-   "Speed": 0,
-   "Acceleration": -0.25,
-   "Weight": 0.25,
-   "Handling": -0.25,
-   "Traction/Grip": 0.25,
-   "Mini-Turbo": 0,
-   "Total": 0
- },
- {
-   "Kart Part": "Cat Cruiser",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": 0,
-   "Handling": 0.25,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0.25,
-   "Total": 0.5
- },
- {
-   "Kart Part": "Steel Driver",
-   "Speed": 0.25,
-   "Acceleration": -0.75,
-   "Weight": 0.5,
-   "Handling": -0.5,
-   "Traction/Grip": 0,
-   "Mini-Turbo": -0.5,
-   "Total": -1
- },
- {
-   "Kart Part": "Circuit Special",
-   "Speed": 0.5,
-   "Acceleration": -0.75,
-   "Weight": 0.25,
-   "Handling": -0.5,
-   "Traction/Grip": -0.5,
-   "Mini-Turbo": -0.75,
-   "Total": -1.75
- },
- {
-   "Kart Part": "Tri-Speeder",
-   "Speed": 0.25,
-   "Acceleration": -0.75,
-   "Weight": 0.5,
-   "Handling": -0.5,
-   "Traction/Grip": 0,
-   "Mini-Turbo": -0.5,
-   "Total": -1
- },
- {
-   "Kart Part": "Badwagon",
-   "Speed": 0.5,
-   "Acceleration": -1,
-   "Weight": 0.5,
-   "Handling": -0.75,
-   "Traction/Grip": 0.5,
-   "Mini-Turbo": -1.0,
-   "Total": -1.25
- },
- {
-   "Kart Part": "Prancer",
-   "Speed": 0.25,
-   "Acceleration": -0.5,
-   "Weight": -0.25,
-   "Handling": 0,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": -0.25,
-   "Total": -1
- },
- {
-   "Kart Part": "Biddybuggy",
-   "Speed": -0.75,
-   "Acceleration": 0.75,
-   "Weight": -0.5,
-   "Handling": 0.5,
-   "Traction/Grip": 0.5,
-   "Mini-Turbo": 0.25,
-   "Total": 0.75
- },
- {
-   "Kart Part": "Landship",
-   "Speed": -0.5,
-   "Acceleration": 0.5,
-   "Weight": -0.5,
-   "Handling": -0.5,
-   "Traction/Grip": 0.75,
-   "Mini-Turbo": 0.5,
-   "Total": 0.25
- },
- {
-   "Kart Part": "Sneeker",
-   "Speed": 0.25,
-   "Acceleration": -0.5,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": -0.75,
-   "Mini-Turbo": -0.25,
-   "Total": null
- },
- {
-   "Kart Part": "Sports Coupe",
-   "Speed": 0,
-   "Acceleration": -0.25,
-   "Weight": 0.25,
-   "Handling": -0.25,
-   "Traction/Grip": 0.25,
-   "Mini-Turbo": 0,
-   "Total": 0
- },
- {
-   "Kart Part": "Gold Standard",
-   "Speed": 0.25,
-   "Acceleration": -0.5,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": -0.75,
-   "Mini-Turbo": -0.25,
-   "Total": -1.25
- },
- {
-   "Kart Part": "Mercedes GLA",
-   "Speed": 0.5,
-   "Acceleration": -1,
-   "Weight": 0.5,
-   "Handling": -0.75,
-   "Traction/Grip": 0.5,
-   "Mini-Turbo": -1.0,
-   "Total": -1.25
- },
- {
-   "Kart Part": "Mercedes Silver Arrow",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": -0.25,
-   "Handling": 0.25,
-   "Traction/Grip": 0.5,
-   "Mini-Turbo": 0.25,
-   "Total": 0.75
- },
- {
-   "Kart Part": "Mercedes 300 SL Roadster",
-   "Speed": 0,
-   "Acceleration": 0,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0,
-   "Total": 0
- },
- {
-   "Kart Part": "Blue Falcon",
-   "Speed": 0.25,
-   "Acceleration": -0.25,
-   "Weight": -0.5,
-   "Handling": -0.25,
-   "Traction/Grip": 0.5,
-   "Mini-Turbo": 0,
-   "Total": -0.25
- },
- {
-   "Kart Part": "Tanooki Kart",
-   "Speed": -0.25,
-   "Acceleration": -0.5,
-   "Weight": 0.25,
-   "Handling": 0.25,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 1.0,
-   "Total": 0.75
- },
- {
-   "Kart Part": "B Dasher",
-   "Speed": 0.5,
-   "Acceleration": -0.75,
-   "Weight": 0.25,
-   "Handling": -0.5,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": -0.5,
-   "Total": -1.25
- },
- {
-   "Kart Part": "Streetle",
-   "Speed": -0.5,
-   "Acceleration": 0.5,
-   "Weight": -0.5,
-   "Handling": -0.5,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": 0.75,
-   "Total": -0.5
- },
- {
-   "Kart Part": "P-Wing",
-   "Speed": 0.5,
-   "Acceleration": -0.75,
-   "Weight": 0.25,
-   "Handling": -0.5,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": -0.5,
-   "Total": -1.25
- },
- {
-   "Kart Part": "Koopa Clown",
-   "Speed": -0.25,
-   "Acceleration": -0.5,
-   "Weight": 0.25,
-   "Handling": 0.25,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 1.0,
-   "Total": 0.75
- },
- {
-   "Kart Part": "Standard Bike",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": -0.25,
-   "Handling": 0.25,
-   "Traction/Grip": 0.5,
-   "Mini-Turbo": 0.25,
-   "Total": 0.75
- },
- {
-   "Kart Part": "Comet",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": 0,
-   "Handling": 0.25,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0.25,
-   "Total": 0.5
- },
- {
-   "Kart Part": "Sport Bike",
-   "Speed": 0.25,
-   "Acceleration": -0.5,
-   "Weight": -0.25,
-   "Handling": 0,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": -0.25,
-   "Total": -1
- },
- {
-   "Kart Part": "The Duke",
-   "Speed": 0,
-   "Acceleration": 0,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0,
-   "Total": 0
- },
- {
-   "Kart Part": "Flame Rider",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": -0.25,
-   "Handling": 0.25,
-   "Traction/Grip": 0.5,
-   "Mini-Turbo": 0.25,
-   "Total": 0.75
- },
- {
-   "Kart Part": "Varmint",
-   "Speed": -0.5,
-   "Acceleration": 0.5,
-   "Weight": -0.25,
-   "Handling": 0.5,
-   "Traction/Grip": 0.25,
-   "Mini-Turbo": 0.5,
-   "Total": 1
- },
- {
-   "Kart Part": "Mr. Scooty",
-   "Speed": -0.75,
-   "Acceleration": 0.75,
-   "Weight": -0.5,
-   "Handling": 0.5,
-   "Traction/Grip": 0.25,
-   "Mini-Turbo": 0.75,
-   "Total": 1
- },
- {
-   "Kart Part": "Jet Bike",
-   "Speed": 0.25,
-   "Acceleration": -0.5,
-   "Weight": -0.25,
-   "Handling": 0,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": -0.25,
-   "Total": -1
- },
- {
-   "Kart Part": "Yoshi Bike",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": 0,
-   "Handling": 0.25,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0.25,
-   "Total": 0.5
- },
- {
-   "Kart Part": "Master Cycle",
-   "Speed": 0.25,
-   "Acceleration": -0.5,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": -0.75,
-   "Mini-Turbo": -0.25,
-   "Total": -1.25
- },
- {
-   "Kart Part": "City Tripper",
-   "Speed": -0.5,
-   "Acceleration": 0.5,
-   "Weight": -0.25,
-   "Handling": 0.5,
-   "Traction/Grip": 0.25,
-   "Mini-Turbo": 0.5,
-   "Total": 1
- },
- {
-   "Kart Part": "Standard ATV",
-   "Speed": 0.5,
-   "Acceleration": -1,
-   "Weight": 0.5,
-   "Handling": -0.75,
-   "Traction/Grip": 0.5,
-   "Mini-Turbo": -1.0,
-   "Total": -1.25
- },
- {
-   "Kart Part": "Wild Wiggler",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": -0.25,
-   "Handling": 0.25,
-   "Traction/Grip": 0.5,
-   "Mini-Turbo": 0.25,
-   "Total": 0.75
- },
- {
-   "Kart Part": "Teddy Buggy",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": 0,
-   "Handling": 0.25,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0.25,
-   "Total": 0.5
- },
- {
-   "Kart Part": "Bone Rattler",
-   "Speed": 0.25,
-   "Acceleration": -0.75,
-   "Weight": 0.5,
-   "Handling": -0.5,
-   "Traction/Grip": 0,
-   "Mini-Turbo": -0.5,
-   "Total": -1
- },
- {
-   "Kart Part": "Inkstriker",
-   "Speed": 0,
-   "Acceleration": -0.25,
-   "Weight": 0.25,
-   "Handling": -0.25,
-   "Traction/Grip": 0.25,
-   "Mini-Turbo": 0,
-   "Total": 0
- },
- {
-   "Kart Part": "Splat Buggy",
-   "Speed": 0.25,
-   "Acceleration": -0.25,
-   "Weight": -0.5,
-   "Handling": -0.25,
-   "Traction/Grip": 0,
-   "Mini-Turbo": -0.25,
-   "Total": -1
- }
-]
+{
+    "Standard Kart" : {
+        "Speed": 0,
+        "Acceleration": 0,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0
+    },
+    "Pipe Frame" : {
+        "Speed": -0.5,
+        "Acceleration": 0.5,
+        "Weight": -0.25,
+        "Handling": 0.5,
+        "Traction/Grip": 0.25,
+        "Mini-Turbo": 0.5
+    },
+    "Mach 8" : {
+        "Speed": 0,
+        "Acceleration": -0.25,
+        "Weight": 0.25,
+        "Handling": -0.25,
+        "Traction/Grip": 0.25,
+        "Mini-Turbo": 0
+    },
+    "Cat Cruiser" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": 0,
+        "Handling": 0.25,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0.25
+    },
+    "Steel Driver" : {
+        "Speed": 0.25,
+        "Acceleration": -0.75,
+        "Weight": 0.5,
+        "Handling": -0.5,
+        "Traction/Grip": 0,
+        "Mini-Turbo": -0.5
+    },
+    "Circuit Special" : {
+        "Speed": 0.5,
+        "Acceleration": -0.75,
+        "Weight": 0.25,
+        "Handling": -0.5,
+        "Traction/Grip": -0.5,
+        "Mini-Turbo": -0.75
+    },
+    "Tri-Speeder" : {
+        "Speed": 0.25,
+        "Acceleration": -0.75,
+        "Weight": 0.5,
+        "Handling": -0.5,
+        "Traction/Grip": 0,
+        "Mini-Turbo": -0.5
+    },
+    "Badwagon" : {
+        "Speed": 0.5,
+        "Acceleration": -1,
+        "Weight": 0.5,
+        "Handling": -0.75,
+        "Traction/Grip": 0.5,
+        "Mini-Turbo": -1.0
+    },
+    "Prancer" : {
+        "Speed": 0.25,
+        "Acceleration": -0.5,
+        "Weight": -0.25,
+        "Handling": 0,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": -0.25
+    },
+    "Biddybuggy" : {
+        "Speed": -0.75,
+        "Acceleration": 0.75,
+        "Weight": -0.5,
+        "Handling": 0.5,
+        "Traction/Grip": 0.5,
+        "Mini-Turbo": 0.25
+    },
+    "Landship" : {
+        "Speed": -0.5,
+        "Acceleration": 0.5,
+        "Weight": -0.5,
+        "Handling": -0.5,
+        "Traction/Grip": 0.75,
+        "Mini-Turbo": 0.5
+    },
+    "Sneeker" : {
+        "Speed": 0.25,
+        "Acceleration": -0.5,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": -0.75,
+        "Mini-Turbo": -0.25
+    },
+    "Sports Coupe" : {
+        "Speed": 0,
+        "Acceleration": -0.25,
+        "Weight": 0.25,
+        "Handling": -0.25,
+        "Traction/Grip": 0.25,
+        "Mini-Turbo": 0
+    },
+    "Gold Standard" : {
+        "Speed": 0.25,
+        "Acceleration": -0.5,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": -0.75,
+        "Mini-Turbo": -0.25
+    },
+    "Mercedes GLA" : {
+        "Speed": 0.5,
+        "Acceleration": -1,
+        "Weight": 0.5,
+        "Handling": -0.75,
+        "Traction/Grip": 0.5,
+        "Mini-Turbo": -1.0
+    },
+    "Mercedes Silver Arrow" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": -0.25,
+        "Handling": 0.25,
+        "Traction/Grip": 0.5,
+        "Mini-Turbo": 0.25
+    },
+    "Mercedes 300 SL Roadster" : {
+        "Speed": 0,
+        "Acceleration": 0,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0
+    },
+    "Blue Falcon" : {
+        "Speed": 0.25,
+        "Acceleration": -0.25,
+        "Weight": -0.5,
+        "Handling": -0.25,
+        "Traction/Grip": 0.5,
+        "Mini-Turbo": 0
+    },
+    "Tanooki Kart" : {
+        "Speed": -0.25,
+        "Acceleration": -0.5,
+        "Weight": 0.25,
+        "Handling": 0.25,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 1.0
+    },
+    "B Dasher" : {
+        "Speed": 0.5,
+        "Acceleration": -0.75,
+        "Weight": 0.25,
+        "Handling": -0.5,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": -0.5
+    },
+    "Streetle" : {
+        "Speed": -0.5,
+        "Acceleration": 0.5,
+        "Weight": -0.5,
+        "Handling": -0.5,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": 0.75
+    },
+    "P-Wing" : {
+        "Speed": 0.5,
+        "Acceleration": -0.75,
+        "Weight": 0.25,
+        "Handling": -0.5,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": -0.5
+    },
+    "Koopa Clown" : {
+        "Speed": -0.25,
+        "Acceleration": -0.5,
+        "Weight": 0.25,
+        "Handling": 0.25,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 1.0
+    },
+    "Standard Bike" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": -0.25,
+        "Handling": 0.25,
+        "Traction/Grip": 0.5,
+        "Mini-Turbo": 0.25
+    },
+    "Comet" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": 0,
+        "Handling": 0.25,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0.25
+    },
+    "Sport Bike" : {
+        "Speed": 0.25,
+        "Acceleration": -0.5,
+        "Weight": -0.25,
+        "Handling": 0,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": -0.25
+    },
+    "The Duke" : {
+        "Speed": 0,
+        "Acceleration": 0,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0
+    },
+    "Flame Rider" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": -0.25,
+        "Handling": 0.25,
+        "Traction/Grip": 0.5,
+        "Mini-Turbo": 0.25
+    },
+    "Varmint" : {
+        "Speed": -0.5,
+        "Acceleration": 0.5,
+        "Weight": -0.25,
+        "Handling": 0.5,
+        "Traction/Grip": 0.25,
+        "Mini-Turbo": 0.5
+    },
+    "Mr. Scooty" : {
+        "Speed": -0.75,
+        "Acceleration": 0.75,
+        "Weight": -0.5,
+        "Handling": 0.5,
+        "Traction/Grip": 0.25,
+        "Mini-Turbo": 0.75
+    },
+    "Jet Bike" : {
+        "Speed": 0.25,
+        "Acceleration": -0.5,
+        "Weight": -0.25,
+        "Handling": 0,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": -0.25
+    },
+    "Yoshi Bike" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": 0,
+        "Handling": 0.25,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0.25
+    },
+    "Master Cycle" : {
+        "Speed": 0.25,
+        "Acceleration": -0.5,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": -0.75,
+        "Mini-Turbo": -0.25
+    },
+    "City Tripper" : {
+        "Speed": -0.5,
+        "Acceleration": 0.5,
+        "Weight": -0.25,
+        "Handling": 0.5,
+        "Traction/Grip": 0.25,
+        "Mini-Turbo": 0.5
+    },
+    "Standard ATV" : {
+        "Speed": 0.5,
+        "Acceleration": -1,
+        "Weight": 0.5,
+        "Handling": -0.75,
+        "Traction/Grip": 0.5,
+        "Mini-Turbo": -1.0
+    },
+    "Wild Wiggler" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": -0.25,
+        "Handling": 0.25,
+        "Traction/Grip": 0.5,
+        "Mini-Turbo": 0.25
+    },
+    "Teddy Buggy" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": 0,
+        "Handling": 0.25,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0.25
+    },
+    "Bone Rattler" : {
+        "Speed": 0.25,
+        "Acceleration": -0.75,
+        "Weight": 0.5,
+        "Handling": -0.5,
+        "Traction/Grip": 0,
+        "Mini-Turbo": -0.5
+    },
+    "Inkstriker" : {
+        "Speed": 0,
+        "Acceleration": -0.25,
+        "Weight": 0.25,
+        "Handling": -0.25,
+        "Traction/Grip": 0.25,
+        "Mini-Turbo": 0
+    },
+    "Splat Buggy" : {
+        "Speed": 0.25,
+        "Acceleration": -0.25,
+        "Weight": -0.5,
+        "Handling": -0.25,
+        "Traction/Grip": 0,
+        "Mini-Turbo": -0.25
+    }
+}

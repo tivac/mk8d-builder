@@ -1,128 +1,114 @@
-[
- {
-   "Name": "Super Glider",
-   "Speed": 0,
-   "Acceleration": 0,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0
- },
- {
-   "Name": "Cloud Glider",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": -0.25,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0.25
- },
- {
-   "Name": "Wario Wing",
-   "Speed": 0,
-   "Acceleration": 0,
-   "Weight": 0.25,
-   "Handling": 0,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": 0
- },
- {
-   "Name": "Waddle Wing",
-   "Speed": 0,
-   "Acceleration": 0,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0
- },
- {
-   "Name": "Peach Parasol",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": -0.25,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0.25
- },
- {
-   "Name": "Parachute",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": -0.25,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0.25
- },
- {
-   "Name": "Parafoil",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": 0.25
- },
- {
-   "Name": "Flower Glider",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": -0.25,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0.25
- },
- {
-   "Name": "Bowser Kite",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": 0.25
- },
- {
-   "Name": "Plane Glider",
-   "Speed": 0,
-   "Acceleration": 0,
-   "Weight": 0.25,
-   "Handling": 0,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": 0
- },
- {
-   "Name": "MKTV Parafoil",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": 0.25
- },
- {
-   "Name": "Gold Glider",
-   "Speed": 0,
-   "Acceleration": 0,
-   "Weight": 0.25,
-   "Handling": 0,
-   "Traction/Grip": -0.25,
-   "Mini-Turbo": 0
- },
- {
-   "Name": "Hylian Kite",
-   "Speed": 0,
-   "Acceleration": 0,
-   "Weight": 0,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0
- },
- {
-   "Name": "Paper Glider",
-   "Speed": -0.25,
-   "Acceleration": 0.25,
-   "Weight": -0.25,
-   "Handling": 0,
-   "Traction/Grip": 0,
-   "Mini-Turbo": 0.25
- }
-]
+{
+    "Super Glider" : {
+        "Speed": 0,
+        "Acceleration": 0,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0
+    },
+    "Cloud Glider" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": -0.25,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0.25
+    },
+    "Wario Wing" : {
+        "Speed": 0,
+        "Acceleration": 0,
+        "Weight": 0.25,
+        "Handling": 0,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": 0
+    },
+    "Waddle Wing" : {
+        "Speed": 0,
+        "Acceleration": 0,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0
+    },
+    "Peach Parasol" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": -0.25,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0.25
+    },
+    "Parachute" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": -0.25,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0.25
+    },
+    "Parafoil" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": 0.25
+    },
+    "Flower Glider" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": -0.25,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0.25
+    },
+    "Bowser Kite" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": 0.25
+    },
+    "Plane Glider" : {
+        "Speed": 0,
+        "Acceleration": 0,
+        "Weight": 0.25,
+        "Handling": 0,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": 0
+    },
+    "MKTV Parafoil" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": 0.25
+    },
+    "Gold Glider" : {
+        "Speed": 0,
+        "Acceleration": 0,
+        "Weight": 0.25,
+        "Handling": 0,
+        "Traction/Grip": -0.25,
+        "Mini-Turbo": 0
+    },
+    "Hylian Kite" : {
+        "Speed": 0,
+        "Acceleration": 0,
+        "Weight": 0,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0
+    },
+    "Paper Glider" : {
+        "Speed": -0.25,
+        "Acceleration": 0.25,
+        "Weight": -0.25,
+        "Handling": 0,
+        "Traction/Grip": 0,
+        "Mini-Turbo": 0.25
+    }
+}
