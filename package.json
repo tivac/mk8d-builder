@@ -22,6 +22,8 @@
   "scripts": {
     "predeploy": "webpack -p",
     "deploy": "gh-pages --dist dist --message=\"Publish\"",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "postversion": "npm run deploy",
+    "release": "npm version -m \"v%s\""
   }
 }
