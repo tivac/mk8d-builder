@@ -1,0 +1,23 @@
+{
+  "name": "mk8deluxe",
+  "version": "1.0.0",
+  "description": "Mario Kart 8 Deluxe Kart Builder",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Pat Cavit <npm@patcavit.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "buble-loader": "^0.4.1",
+    "html-webpack-plugin": "^2.28.0",
+    "modular-css-webpack": "^5.2.2",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "mithril": "^1.1.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  }
+}
