@@ -4,8 +4,9 @@ var path = require("path"),
 
     pkg = require("./package.json"),
     
-    CSS  = require("modular-css-webpack/plugin"),
-    HTML = require("html-webpack-plugin");
+    CSS   = require("modular-css-webpack/plugin"),
+    HTML  = require("html-webpack-plugin"),
+    Clean = require("clean-webpack-plugin");
 
 module.exports = (env) => ({
     entry : "./src/index.js",
@@ -43,13 +44,11 @@ module.exports = (env) => ({
         new HTML({
             title    : `${pkg.description} - v${pkg.version}`,
             template : './src/index.ejs'
-        })
+        }),
+
+        new Clean([ "./dist" ])
     ],
     
-    // devServer : {
-    //     publicPath : "http://localhost:8080/"
-    // },
-
     watchOptions : {
         ignored : /node_modules/
     }
