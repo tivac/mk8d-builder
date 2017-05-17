@@ -19,7 +19,18 @@ export default function Table() {
                     ),
                     keys.map((key) => {
                         return m("tr", {
-                                onclick : (e) => (state[vnode.attrs.key] = { name : key, data : data[key] })
+                                onclick : (e) => {
+                                    if(state[vnode.attrs.key] && key === state[vnode.attrs.key].name) {
+                                        e.redraw = false;
+                                        
+                                        return;
+                                    }
+
+                                    state[vnode.attrs.key] = {
+                                        name : key,
+                                        data : data[key]
+                                    };
+                                }
                             },
                             m("td", key),
                             Object.keys(data[key]).map((field) => m("td", data[key][field]))
