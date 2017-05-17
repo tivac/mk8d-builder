@@ -1,0 +1,212 @@
+[
+ {
+   "Tire Name": "Standard",
+   "Speed": 0,
+   "Acceleration": 0,
+   "Weight": 0,
+   "Handling": 0,
+   "Traction/Grip": 0,
+   "Mini-Turbo": 0,
+   "Total": 0
+ },
+ {
+   "Tire Name": "Monster",
+   "Speed": 0,
+   "Acceleration": -0.5,
+   "Weight": 0.5,
+   "Handling": -0.75,
+   "Traction/Grip": 0.5,
+   "Mini-Turbo": -0.25,
+   "Total": -0.5
+ },
+ {
+   "Tire Name": "Roller",
+   "Speed": -0.5,
+   "Acceleration": 0.5,
+   "Weight": -0.5,
+   "Handling": 0.25,
+   "Traction/Grip": -0.25,
+   "Mini-Turbo": 0.75,
+   "Total": 0.25
+ },
+ {
+   "Tire Name": "Slim",
+   "Speed": 0.25,
+   "Acceleration": -0.5,
+   "Weight": 0,
+   "Handling": 0.25,
+   "Traction/Grip": -1.0,
+   "Mini-Turbo": -0.25,
+   "Total": -1.25
+ },
+ {
+   "Tire Name": "Slick",
+   "Speed": 0.5,
+   "Acceleration": -0.75,
+   "Weight": 0.25,
+   "Handling": -0.25,
+   "Traction/Grip": -1.25,
+   "Mini-Turbo": -0.75,
+   "Total": -2.25
+ },
+ {
+   "Tire Name": "Metal",
+   "Speed": 0.5,
+   "Acceleration": -1,
+   "Weight": 0.5,
+   "Handling": -0.25,
+   "Traction/Grip": -0.75,
+   "Mini-Turbo": -0/75,
+   "Total": -1
+ },
+ {
+   "Tire Name": "Button",
+   "Speed": -0.25,
+   "Acceleration": 0.25,
+   "Weight": -0.5,
+   "Handling": 0,
+   "Traction/Grip": -0/5,
+   "Mini-Turbo": 0.5,
+   "Total": 0
+ },
+ {
+   "Tire Name": "Off-Road",
+   "Speed": 0.25,
+   "Acceleration": -0.25,
+   "Weight": 0.25,
+   "Handling": -0.5,
+   "Traction/Grip": 0.25,
+   "Mini-Turbo": -0.5,
+   "Total": -0.5
+ },
+ {
+   "Tire Name": "Sponge",
+   "Speed": -0.25,
+   "Acceleration": 0,
+   "Weight": -0.25,
+   "Handling": -0.25,
+   "Traction/Grip": 0.25,
+   "Mini-Turbo": 0.25,
+   "Total": -0.25
+ },
+ {
+   "Tire Name": "Wood",
+   "Speed": 0.25,
+   "Acceleration": -0.5,
+   "Weight": 0,
+   "Handling": 0.25,
+   "Traction/Grip": -1.0,
+   "Mini-Turbo": -0.25,
+   "Total": -1.25
+ },
+ {
+   "Tire Name": "Cushion",
+   "Speed": -0.25,
+   "Acceleration": 0,
+   "Weight": -0.25,
+   "Handling": -0.25,
+   "Traction/Grip": 0.25,
+   "Mini-Turbo": 0.25,
+   "Total": -0.25
+ },
+ {
+   "Tire Name": "Blue Standard",
+   "Speed": 0,
+   "Acceleration": 0,
+   "Weight": 0,
+   "Handling": 0,
+   "Traction/Grip": 0,
+   "Mini-Turbo": 0,
+   "Total": 0
+ },
+ {
+   "Tire Name": "Hot Monster",
+   "Speed": 0,
+   "Acceleration": -0.5,
+   "Weight": 0.5,
+   "Handling": -0.75,
+   "Traction/Grip": 0.5,
+   "Mini-Turbo": -0.25,
+   "Total": -0.5
+ },
+ {
+   "Tire Name": "Azure Roller",
+   "Speed": -0.5,
+   "Acceleration": 0.5,
+   "Weight": -0.5,
+   "Handling": 0.25,
+   "Traction/Grip": -0.25,
+   "Mini-Turbo": 0.75,
+   "Total": 0.25
+ },
+ {
+   "Tire Name": "Crimson Slim",
+   "Speed": 0.25,
+   "Acceleration": -0.5,
+   "Weight": 0,
+   "Handling": 0.25,
+   "Traction/Grip": -1.0,
+   "Mini-Turbo": -0/25,
+   "Total": -1
+ },
+ {
+   "Tire Name": "Cyber Slick",
+   "Speed": 0.5,
+   "Acceleration": -0.75,
+   "Weight": 0.25,
+   "Handling": -0.25,
+   "Traction/Grip": -1.25,
+   "Mini-Turbo": -0.75,
+   "Total": -2.25
+ },
+ {
+   "Tire Name": "Retro Off-Road",
+   "Speed": 0.25,
+   "Acceleration": -0.25,
+   "Weight": 0.25,
+   "Handling": -0.5,
+   "Traction/Grip": 0.25,
+   "Mini-Turbo": -0.5,
+   "Total": -0.5
+ },
+ {
+   "Tire Name": "Gold Tires",
+   "Speed": 0.5,
+   "Acceleration": -1,
+   "Weight": 0.5,
+   "Handling": -0.25,
+   "Traction/Grip": -0.75,
+   "Mini-Turbo": -0.75,
+   "Total": -1.75
+ },
+ {
+   "Tire Name": "GLA Tires",
+   "Speed": 0,
+   "Acceleration": 0,
+   "Weight": 0,
+   "Handling": 0,
+   "Traction/Grip": 0,
+   "Mini-Turbo": 0,
+   "Total": 0
+ },
+ {
+   "Tire Name": "Triforce Tires",
+   "Speed": 0.25,
+   "Acceleration": -0.25,
+   "Weight": 0.25,
+   "Handling": -0.5,
+   "Traction/Grip": 0.25,
+   "Mini-Turbo": -0.5,
+   "Total": -0.5
+ },
+ {
+   "Tire Name": "Leaf Tires",
+   "Speed": -0.25,
+   "Acceleration": 0.25,
+   "Weight": -0.5,
+   "Handling": 0,
+   "Traction/Grip": -0.5,
+   "Mini-Turbo": 0.5,
+   "Total": -0.5
+ }
+]

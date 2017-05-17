@@ -1,0 +1,162 @@
+[
+ {
+   "Characters": "Baby Peach, Baby Daisy",
+   "Speed": 2.25,
+   "Acceleration": 4,
+   "Weight": 2,
+   "Handling": 5,
+   "Traction/Grip": 4.25,
+   "Mini-Turbo": 4,
+   "Total": 21.5
+ },
+ {
+   "Characters": "Baby Rosalina, Lemmy Koopa",
+   "Speed": 2.25,
+   "Acceleration": 4.25,
+   "Weight": 2,
+   "Handling": 4.75,
+   "Traction/Grip": 3.75,
+   "Mini-Turbo": 4,
+   "Total": 21
+ },
+ {
+   "Characters": "Baby Mario/Luigi, Dry Bones",
+   "Speed": 2.5,
+   "Acceleration": 4.25,
+   "Weight": 2,
+   "Handling": 4.5,
+   "Traction/Grip": 4,
+   "Mini-Turbo": 3.75,
+   "Total": 21
+ },
+ {
+   "Characters": "Koopa Troopa, Lakitu, Bowser Jr.",
+   "Speed": 2.75,
+   "Acceleration": 4,
+   "Weight": 2.5,
+   "Handling": 4.5,
+   "Traction/Grip": 4.25,
+   "Mini-Turbo": 3.75,
+   "Total": 21.75
+ },
+ {
+   "Characters": "Toadette, Wendy, Isabelle",
+   "Speed": 2.75,
+   "Acceleration": 4.25,
+   "Weight": 2.5,
+   "Handling": 4.25,
+   "Traction/Grip": 3.5,
+   "Mini-Turbo": 3.75,
+   "Total": 21
+ },
+ {
+   "Characters": "Toad, ShyGuy, Larry",
+   "Speed": 3,
+   "Acceleration": 4,
+   "Weight": 2.75,
+   "Handling": 4.25,
+   "Traction/Grip": 4,
+   "Mini-Turbo": 3.5,
+   "Total": 21.5
+ },
+ {
+   "Characters": "Cat Peach, Inkling Girl, Villager Girl",
+   "Speed": 3.25,
+   "Acceleration": 4,
+   "Weight": 2.75,
+   "Handling": 4,
+   "Traction/Grip": 3.75,
+   "Mini-Turbo": 3.5,
+   "Total": 21.25
+ },
+ {
+   "Characters": "Peach, Daisy, Yoshi",
+   "Speed": 3.5,
+   "Acceleration": 3.75,
+   "Weight": 3,
+   "Handling": 3.75,
+   "Traction/Grip": 3.75,
+   "Mini-Turbo": 3.5,
+   "Total": 21.25
+ },
+ {
+   "Characters": "Tanooki Mario, Inkling Boy, Villager Boy",
+   "Speed": 3.5,
+   "Acceleration": 3.75,
+   "Weight": 3.25,
+   "Handling": 3.75,
+   "Traction/Grip": 3.25,
+   "Mini-Turbo": 3.5,
+   "Total": 21
+ },
+ {
+   "Characters": "Luigi, Iggy",
+   "Speed": 3.75,
+   "Acceleration": 3.5,
+   "Weight": 3.5,
+   "Handling": 3.75,
+   "Traction/Grip": 3.25,
+   "Mini-Turbo": 3.25,
+   "Total": 21
+ },
+ {
+   "Characters": "Mario, Ludwig",
+   "Speed": 3.75,
+   "Acceleration": 3.5,
+   "Weight": 3.5,
+   "Handling": 3.5,
+   "Traction/Grip": 3.5,
+   "Mini-Turbo": 3.25,
+   "Total": 21
+ },
+ {
+   "Characters": "Link, King Boo, Rosalina",
+   "Speed": 4,
+   "Acceleration": 3.25,
+   "Weight": 3.75,
+   "Handling": 3.25,
+   "Traction/Grip": 3.75,
+   "Mini-Turbo": 3.25,
+   "Total": 21.25
+ },
+ {
+   "Characters": "Donkey Kong, Roy, Waluigi",
+   "Speed": 4.5,
+   "Acceleration": 3.25,
+   "Weight": 4,
+   "Handling": 3,
+   "Traction/Grip": 3,
+   "Mini-Turbo": 3,
+   "Total": 20.75
+ },
+ {
+   "Characters": "Wario, Dry Bowser",
+   "Speed": 4.75,
+   "Acceleration": 3,
+   "Weight": 4.25,
+   "Handling": 2.75,
+   "Traction/Grip": 3.25,
+   "Mini-Turbo": 2.75,
+   "Total": 20.75
+ },
+ {
+   "Characters": "Metal/Gold Mario, Pink Gold Peach",
+   "Speed": 4.25,
+   "Acceleration": 3.25,
+   "Weight": 4.5,
+   "Handling": 3.25,
+   "Traction/Grip": 3.25,
+   "Mini-Turbo": 3,
+   "Total": 21.5
+ },
+ {
+   "Characters": "Bowser, Morton",
+   "Speed": 4.75,
+   "Acceleration": 3,
+   "Weight": 4.5,
+   "Handling": 2.5,
+   "Traction/Grip": 3,
+   "Mini-Turbo": 2.75,
+   "Total": 20.5
+ }
+]
