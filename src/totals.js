@@ -3,10 +3,10 @@ import m from "mithril";
 import state from "./state.js";
 
 export default function Totals() {
-    var totals = {},
-        choices;
+    var totals, choices;
     
     function calculate() {
+        totals  = {};
         choices = Object.keys(state);
 
         Object.keys(state.char.data).forEach((key) => {
