@@ -1,4 +1,13 @@
-# mk8deluxe
+# mk8d-builder
+
+The [live version](https://tivac.github.io/mk8d-builder/) is probably what you're looking for.
+
+## Developing
+
+```bash
+$ npm i
+$ npm start
+```
 
 ## Releasing
 
