@@ -7,7 +7,7 @@ import css from "./table.css";
 export default function Table(init) {
     var data = init.attrs.data,
         keys = Object.keys(data),
-        base = `/src/icons/${init.attrs.name.toLowerCase()}`,
+        base = `./icons/${init.attrs.name.toLowerCase()}`,
         dir  = "asc",
         sort;
     

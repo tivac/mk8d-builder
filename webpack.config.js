@@ -6,7 +6,8 @@ var path = require("path"),
     
     CSS   = require("modular-css-webpack/plugin"),
     HTML  = require("html-webpack-plugin"),
-    Clean = require("clean-webpack-plugin");
+    Clean = require("clean-webpack-plugin"),
+    Copy  = require("copy-webpack-plugin");
 
 module.exports = (env) => ({
     entry : "./src/index.js",
@@ -52,7 +53,11 @@ module.exports = (env) => ({
             template : './src/index.ejs'
         }),
 
-        new Clean([ "./dist" ])
+        new Clean([ "./dist" ]),
+
+        new Copy([
+            { from : "./src/icons", to : "icons"}
+        ])
     ],
     
     watchOptions : {
