@@ -15,12 +15,12 @@ import css from "./index.css";
 m.mount(document.body, {
     view() {
         return [
-            state.char && m(Totals),
+            state.character && m(Totals),
             
             m(Table, {
                 data : characters,
                 name : "Characters",
-                key  : "char"
+                key  : "character"
             }),
             m(Table, {
                 data : karts,

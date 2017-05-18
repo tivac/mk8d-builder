@@ -1,22 +1,26 @@
 import m from "mithril";
 
+import Icon from "./icon.js";
 import state from "./state.js";
 
 import css from "./totals.css";
 
+var order = Object.keys(state);
+
 export default function Totals() {
-    var totals, choices;
+    var totals;
     
     function calculate() {
         totals  = {};
-        choices = Object.keys(state);
 
-        Object.keys(state.char.data).forEach((key) => {
+        Object.keys(state.character.data).forEach((key) => {
             if(!(key in totals)) {
                 totals[key] = 0;
             }
 
-            choices.forEach((choice) => (totals[key] += state[choice].data[key]));
+            order
+                .filter((field) => state[field])
+                .forEach((field) => (totals[key] += state[field].data[key]));
         });
     }
 
@@ -25,28 +29,21 @@ export default function Totals() {
             calculate();
 
             return m("div", { class : css.totals },
-                m("h1", "Build Details"),
-                m("table",
-                    m("thead",
-                        m("tr",
-                            m("th", "Choice"),
-                            Object.keys(totals).map((key) => m("th", key))
-                        )
-                    ),
-                    m("tbody",
-                        choices.map((choice) =>
-                            m("tr",
-                                m("td", state[choice].name),
-                                Object.keys(state[choice].data).map((field) =>
-                                    m("td", state[choice].data[field])
-                                )
-                            )
-                        ),
-                        m("tr",
-                            m("td", "TOTAL"),
-                            Object.keys(totals).map((field) => m("td", totals[field]))
-                        )
+                m("div", { class : css.choices },
+                    order.map((type) =>
+                        state[type] && m(Icon, {
+                            type : type,
+                            icon : state[type].name,
+
+                            onclick : () => (state[type] = null)
+                        })
                     )
+                ),
+                m("dl",
+                    Object.keys(totals).map((field) => [
+                        m("dt", field),
+                        m("dd", totals[field])
+                    ])
                 )
             );
         }

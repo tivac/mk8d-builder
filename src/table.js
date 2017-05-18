@@ -1,5 +1,6 @@
 import m from "mithril";
 
+import Icon from "./icon.js";
 import state from "./state.js";
 
 import css from "./table.css";
@@ -7,7 +8,6 @@ import css from "./table.css";
 export default function Table(init) {
     var data = init.attrs.data,
         keys = Object.keys(data),
-        base = `./icons/${init.attrs.name.toLowerCase()}`,
         dir  = "asc",
         sort;
     
@@ -74,8 +74,9 @@ export default function Table(init) {
                             },
                             
                             m("td",
-                                m("img", {
-                                    src : `${base}/${key.toLowerCase().replace(/\W/g, "")}.png`
+                                m(Icon, {
+                                    type : vnode.attrs.key,
+                                    icon : key
                                 })
                             ),
                             m("td", key),
