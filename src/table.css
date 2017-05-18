@@ -1,0 +1,41 @@
+@value light: #CBCBCB;
+@value lighter: #E0E0E0;
+@value darkest: #000;
+
+.table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid light;
+}
+
+.table thead {
+    background-color: lighter;
+    color: darkest;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.table td,
+.table th {
+    border-left: 1px solid light; /*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+}
+
+.table th {
+    text-align: center;
+}
+
+.table tr:nth-child(2n-1) td {
+    background-color: #F2F2F2;
+}
+
+.table tr.selected td {
+    background-color: #656565;
+    color: #F6F3E8;
+}

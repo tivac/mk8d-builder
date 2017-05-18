@@ -2,6 +2,8 @@ import m from "mithril";
 
 import state from "./state.js";
 
+import css from "./totals.css";
+
 export default function Totals() {
     var totals, choices;
     
@@ -19,11 +21,10 @@ export default function Totals() {
     }
 
     return {
-        oninit   : calculate,
-        onupdate : calculate,
-
         view(vnode) {
-            return m("div",
+            calculate();
+
+            return m("div", { class : css.totals },
                 m("h1", "Build Details"),
                 m("table",
                     m("thead",
