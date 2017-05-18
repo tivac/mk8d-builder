@@ -23,7 +23,7 @@
     "predeploy": "webpack -p",
     "deploy": "gh-pages --dist dist --message=\"Publish\"",
     "start": "webpack-dev-server",
-    "postversion": "npm run deploy",
+    "postversion": "npm run deploy && git push --follow-tags",
     "release": "npm version -m \"v%s\""
   }
 }
