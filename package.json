@@ -23,7 +23,7 @@
     "mithril": "^1.1.1"
   },
   "scripts": {
-    "predeploy": "webpack -p",
+    "predeploy": "webpack -p --env=\"dist\"",
     "deploy": "cross-var \"gh-pages --dist dist --message=\\\"v$npm_package_version\\\"\"",
     "start": "webpack-dev-server",
     "version": "npm run deploy",

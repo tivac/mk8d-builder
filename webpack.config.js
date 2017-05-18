@@ -39,6 +39,12 @@ module.exports = (env) => ({
     plugins : [
         new CSS({
             css  : "./app.css",
+
+            namer : env === "dist" ? "modular-css-namer" : null,
+
+            done : env === "dist" ? [
+                require("cssnano")()
+            ] : []
         }),
 
         new HTML({
