@@ -9,10 +9,12 @@ $ npm run release <version>
 
 ## TODO
 
-- [ ] Styling
-- [ ] Table sorting
-- [ ] Some sort of static/floating build total
+- [x] Some sort of static/floating build total
+- [x] Table sorting
+- [x] Images
+- [x] Basic Styling
+- [ ] Actually nice styling
 - [ ] Color code squares based on value
-- [ ] Build comparison
-- [ ] Images
+- [ ] Build comparisons
 - [ ] Better overall layout (grids?)
+- [ ] Share builds via URL
