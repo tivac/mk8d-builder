@@ -1,0 +1,108 @@
+{
+    "characters": {
+        "min": {
+            "Speed": 2.25,
+            "Acceleration": 3,
+            "Weight": 2,
+            "Handling": 2.5,
+            "Traction/Grip": 3,
+            "Mini-Turbo": 2.75
+        },
+        "mean": {
+            "Speed": "3.45",
+            "Acceleration": "3.71",
+            "Weight": "3.15",
+            "Handling": "3.81",
+            "Traction/Grip": "3.61",
+            "Mini-Turbo": "3.42"
+        },
+        "max": {
+            "Speed": 4.75,
+            "Acceleration": 4.25,
+            "Weight": 4.5,
+            "Handling": 5,
+            "Traction/Grip": 4.25,
+            "Mini-Turbo": 4
+        }
+    },
+
+    "karts": {
+        "min": {
+            "Speed": -0.75,
+            "Acceleration": -1,
+            "Weight": -0.5,
+            "Handling": -0.75,
+            "Traction/Grip": -0.75,
+            "Mini-Turbo": -1
+        },
+        "mean": {
+            "Speed": "-0.02",
+            "Acceleration": "-0.17",
+            "Weight": "-0.01",
+            "Handling": "-0.06",
+            "Traction/Grip": "0.07",
+            "Mini-Turbo": "-0.01"
+        },
+        "max": {
+            "Speed": 0.5,
+            "Acceleration": 0.75,
+            "Weight": 0.5,
+            "Handling": 0.5,
+            "Traction/Grip": 0.75,
+            "Mini-Turbo": 1
+        }
+    },
+
+    "tires": {
+        "min": {
+            "Speed": -0.5,
+            "Acceleration": -1,
+            "Weight": -0.5,
+            "Handling": -0.75,
+            "Traction/Grip": -1.25,
+            "Mini-Turbo": -0.75
+        },
+        "mean": {
+            "Speed": "0.07",
+            "Acceleration": "-0.25",
+            "Weight": "0.04",
+            "Handling": "-0.15",
+            "Traction/Grip": "-0.30",
+            "Mini-Turbo": "-0.13"
+        },
+        "max": {
+            "Speed": 0.5,
+            "Acceleration": 0.5,
+            "Weight": 0.5,
+            "Handling": 0.25,
+            "Traction/Grip": 0.5,
+            "Mini-Turbo": 0.75
+        }
+    },
+    "gliders": {
+        "min": {
+            "Speed": -0.25,
+            "Acceleration": 0,
+            "Weight": -0.25,
+            "Handling": 0,
+            "Traction/Grip": -0.25,
+            "Mini-Turbo": 0
+        },
+        "mean": {
+            "Speed": "-0.14",
+            "Acceleration": "0.14",
+            "Weight": "-0.04",
+            "Handling": "0.00",
+            "Traction/Grip": "-0.11",
+            "Mini-Turbo": "0.14"
+        },
+        "max": {
+            "Speed": 0,
+            "Acceleration": 0.25,
+            "Weight": 0.25,
+            "Handling": 0,
+            "Traction/Grip": 0,
+            "Mini-Turbo": 0.25
+        }
+    }
+}
