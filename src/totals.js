@@ -1,11 +1,22 @@
 import m from "mithril";
 
-import Icon from "./icon.js";
+import character from "../data/characters.json";
+import kart from "../data/karts.json";
+import tire from "../data/tires.json";
+import glider from "../data/gliders.json";
+import meta from "../data/meta.json";
+
 import state from "./state.js";
+import Stats from "./stats.js";
 
 import css from "./totals.css";
 
-var order = Object.keys(state);
+var items = {
+        character,
+        kart,
+        tire,
+        glider
+    };
 
 export default function Totals() {
     var totals;
@@ -13,14 +24,14 @@ export default function Totals() {
     function calculate() {
         totals  = {};
 
-        Object.keys(state.character.data).forEach((key) => {
+        meta.fields.forEach((key) => {
             if(!(key in totals)) {
                 totals[key] = 0;
             }
 
-            order
-                .filter((field) => state[field])
-                .forEach((field) => (totals[key] += state[field].data[key]));
+            meta.order
+                .filter((section) => state[section])
+                .forEach((section) => (totals[key] += items[section][state[section]][key]));
         });
     }
 
@@ -29,23 +40,8 @@ export default function Totals() {
             calculate();
 
             return m("div", { class : css.totals },
-                m("div", { class : css.choices },
-                    order.map((type) =>
-                        state[type] && m(Icon, {
-                            type : type,
-                            icon : state[type].name,
-
-                            onclick : () => (state[type] = null)
-                        })
-                    )
-                ),
-                m("dl",
-                    Object.keys(totals).map((field) => [
-                        m("dt", field),
-                        m("dd", totals[field])
-                    ])
-                )
+                m(Stats, { data : totals })
             );
         }
-    }
+    };
 }

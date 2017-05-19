@@ -1,0 +1,17 @@
+.stats {
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.stat {
+    width: 33%;
+
+    font-family: 'Droid Sans Mono', monospace;
+}
+
+.stat label {
+    font-weight: bold;
+}

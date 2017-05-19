@@ -2,8 +2,9 @@ import m from "mithril";
 
 import meta from "../data/meta.json";
 
-import Icon from "./icon.js";
 import state from "./state.js";
+import Icon from "./icon.js";
+import Stats from "./stats.js";
 
 import css from "./grid.css";
 
@@ -78,21 +79,7 @@ export default function Grid(init) {
                                     })
                                 ),
                                 
-                                m("div", { class : css.details },
-
-                                    meta.fields.map((field) => {
-                                        var val = data[name][field],
-                                            out = val.toFixed(2);
-                                        
-                                        return m("div", {
-                                                class : css.detail,
-                                                title : field
-                                            },
-                                            m("label", field.slice(0, 1)),
-                                            val > 0 ? `+${out}` : out
-                                        );
-                                    })
-                                )
+                                m(Stats, { data : data[name] })
                             )
                         );
                     })

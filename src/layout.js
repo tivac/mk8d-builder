@@ -4,6 +4,7 @@ import meta from "../data/meta.json";
 import state from "./state.js";
 
 import Icon from "./icon.js";
+import Totals from "./totals.js";
 
 import css from "./layout.css";
 
@@ -28,7 +29,8 @@ export default function() {
                                 }) :
                                 type
                         )
-                    )
+                    ),
+                    m(Totals)
                 ),
 
                 vnode.children
