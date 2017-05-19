@@ -4,7 +4,7 @@
         "Acceleration": 0,
         "Weight": 0,
         "Handling": 0,
-        "Traction/Grip": 0,
+        "Traction": 0,
         "Mini-Turbo": 0
     },
     "Monster" : {
@@ -12,7 +12,7 @@
         "Acceleration": -0.5,
         "Weight": 0.5,
         "Handling": -0.75,
-        "Traction/Grip": 0.5,
+        "Traction": 0.5,
         "Mini-Turbo": -0.25
     },
     "Roller" : {
@@ -20,7 +20,7 @@
         "Acceleration": 0.5,
         "Weight": -0.5,
         "Handling": 0.25,
-        "Traction/Grip": -0.25,
+        "Traction": -0.25,
         "Mini-Turbo": 0.75
     },
     "Slim" : {
@@ -28,7 +28,7 @@
         "Acceleration": -0.5,
         "Weight": 0,
         "Handling": 0.25,
-        "Traction/Grip": -1.0,
+        "Traction": -1.0,
         "Mini-Turbo": -0.25
     },
     "Slick" : {
@@ -36,7 +36,7 @@
         "Acceleration": -0.75,
         "Weight": 0.25,
         "Handling": -0.25,
-        "Traction/Grip": -1.25,
+        "Traction": -1.25,
         "Mini-Turbo": -0.75
     },
     "Metal" : {
@@ -44,7 +44,7 @@
         "Acceleration": -1,
         "Weight": 0.5,
         "Handling": -0.25,
-        "Traction/Grip": -0.75,
+        "Traction": -0.75,
         "Mini-Turbo": -0.75
     },
     "Button" : {
@@ -52,7 +52,7 @@
         "Acceleration": 0.25,
         "Weight": -0.5,
         "Handling": 0,
-        "Traction/Grip": -0.5,
+        "Traction": -0.5,
         "Mini-Turbo": 0.5
     },
     "Off-Road" : {
@@ -60,7 +60,7 @@
         "Acceleration": -0.25,
         "Weight": 0.25,
         "Handling": -0.5,
-        "Traction/Grip": 0.25,
+        "Traction": 0.25,
         "Mini-Turbo": -0.5
     },
     "Sponge" : {
@@ -68,7 +68,7 @@
         "Acceleration": 0,
         "Weight": -0.25,
         "Handling": -0.25,
-        "Traction/Grip": 0.25,
+        "Traction": 0.25,
         "Mini-Turbo": 0.25
     },
     "Wood" : {
@@ -76,7 +76,7 @@
         "Acceleration": -0.5,
         "Weight": 0,
         "Handling": 0.25,
-        "Traction/Grip": -1.0,
+        "Traction": -1.0,
         "Mini-Turbo": -0.25
     },
     "Cushion" : {
@@ -84,7 +84,7 @@
         "Acceleration": 0,
         "Weight": -0.25,
         "Handling": -0.25,
-        "Traction/Grip": 0.25,
+        "Traction": 0.25,
         "Mini-Turbo": 0.25
     },
     "Blue Standard" : {
@@ -92,7 +92,7 @@
         "Acceleration": 0,
         "Weight": 0,
         "Handling": 0,
-        "Traction/Grip": 0,
+        "Traction": 0,
         "Mini-Turbo": 0
     },
     "Hot Monster" : {
@@ -100,7 +100,7 @@
         "Acceleration": -0.5,
         "Weight": 0.5,
         "Handling": -0.75,
-        "Traction/Grip": 0.5,
+        "Traction": 0.5,
         "Mini-Turbo": -0.25
     },
     "Azure Roller" : {
@@ -108,7 +108,7 @@
         "Acceleration": 0.5,
         "Weight": -0.5,
         "Handling": 0.25,
-        "Traction/Grip": -0.25,
+        "Traction": -0.25,
         "Mini-Turbo": 0.75
     },
     "Crimson Slim" : {
@@ -116,7 +116,7 @@
         "Acceleration": -0.5,
         "Weight": 0,
         "Handling": 0.25,
-        "Traction/Grip": -1.0,
+        "Traction": -1.0,
         "Mini-Turbo": -0.25
     },
     "Cyber Slick" : {
@@ -124,7 +124,7 @@
         "Acceleration": -0.75,
         "Weight": 0.25,
         "Handling": -0.25,
-        "Traction/Grip": -1.25,
+        "Traction": -1.25,
         "Mini-Turbo": -0.75
     },
     "Retro Off-Road" : {
@@ -132,7 +132,7 @@
         "Acceleration": -0.25,
         "Weight": 0.25,
         "Handling": -0.5,
-        "Traction/Grip": 0.25,
+        "Traction": 0.25,
         "Mini-Turbo": -0.5
     },
     "Gold" : {
@@ -140,7 +140,7 @@
         "Acceleration": -1,
         "Weight": 0.5,
         "Handling": -0.25,
-        "Traction/Grip": -0.75,
+        "Traction": -0.75,
         "Mini-Turbo": -0.75
     },
     "GLA" : {
@@ -148,7 +148,7 @@
         "Acceleration": 0,
         "Weight": 0,
         "Handling": 0,
-        "Traction/Grip": 0,
+        "Traction": 0,
         "Mini-Turbo": 0
     },
     "Triforce" : {
@@ -156,7 +156,7 @@
         "Acceleration": -0.25,
         "Weight": 0.25,
         "Handling": -0.5,
-        "Traction/Grip": 0.25,
+        "Traction": 0.25,
         "Mini-Turbo": -0.5
     },
     "Leaf" : {
@@ -164,7 +164,7 @@
         "Acceleration": 0.25,
         "Weight": -0.5,
         "Handling": 0,
-        "Traction/Grip": -0.5,
+        "Traction": -0.5,
         "Mini-Turbo": 0.5
     }
 }

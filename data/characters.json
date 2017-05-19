@@ -4,7 +4,7 @@
         "Acceleration": 4,
         "Weight": 2,
         "Handling": 5,
-        "Traction/Grip": 4.25,
+        "Traction": 4.25,
         "Mini-Turbo": 4
     },
     "Baby Daisy" : {
@@ -12,7 +12,7 @@
         "Acceleration": 4,
         "Weight": 2,
         "Handling": 5,
-        "Traction/Grip": 4.25,
+        "Traction": 4.25,
         "Mini-Turbo": 4
     },
     "Baby Rosalina" : {
@@ -20,7 +20,7 @@
         "Acceleration": 4.25,
         "Weight": 2,
         "Handling": 4.75,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 4
     },
     "Lemmy Koopa" : {
@@ -28,7 +28,7 @@
         "Acceleration": 4.25,
         "Weight": 2,
         "Handling": 4.75,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 4
     },
     "Baby Mario" : {
@@ -36,7 +36,7 @@
         "Acceleration": 4.25,
         "Weight": 2,
         "Handling": 4.5,
-        "Traction/Grip": 4,
+        "Traction": 4,
         "Mini-Turbo": 3.75
     },
     "Baby Luigi" : {
@@ -44,7 +44,7 @@
         "Acceleration": 4.25,
         "Weight": 2,
         "Handling": 4.5,
-        "Traction/Grip": 4,
+        "Traction": 4,
         "Mini-Turbo": 3.75
     },
     "Dry Bones" : {
@@ -52,7 +52,7 @@
         "Acceleration": 4.25,
         "Weight": 2,
         "Handling": 4.5,
-        "Traction/Grip": 4,
+        "Traction": 4,
         "Mini-Turbo": 3.75
     },
     "Koopa Troopa" : {
@@ -60,7 +60,7 @@
         "Acceleration": 4,
         "Weight": 2.5,
         "Handling": 4.5,
-        "Traction/Grip": 4.25,
+        "Traction": 4.25,
         "Mini-Turbo": 3.75
     },
     "Lakitu" : {
@@ -68,7 +68,7 @@
         "Acceleration": 4,
         "Weight": 2.5,
         "Handling": 4.5,
-        "Traction/Grip": 4.25,
+        "Traction": 4.25,
         "Mini-Turbo": 3.75
     },
     "Bowser Jr." : {
@@ -76,7 +76,7 @@
         "Acceleration": 4,
         "Weight": 2.5,
         "Handling": 4.5,
-        "Traction/Grip": 4.25,
+        "Traction": 4.25,
         "Mini-Turbo": 3.75
     },
     "Toadette" : {
@@ -84,7 +84,7 @@
         "Acceleration": 4.25,
         "Weight": 2.5,
         "Handling": 4.25,
-        "Traction/Grip": 3.5,
+        "Traction": 3.5,
         "Mini-Turbo": 3.75
     },
     "Wendy" : {
@@ -92,7 +92,7 @@
         "Acceleration": 4.25,
         "Weight": 2.5,
         "Handling": 4.25,
-        "Traction/Grip": 3.5,
+        "Traction": 3.5,
         "Mini-Turbo": 3.75
     },
     "Isabelle" : {
@@ -100,7 +100,7 @@
         "Acceleration": 4.25,
         "Weight": 2.5,
         "Handling": 4.25,
-        "Traction/Grip": 3.5,
+        "Traction": 3.5,
         "Mini-Turbo": 3.75
     },
     "Toad" : {
@@ -108,7 +108,7 @@
         "Acceleration": 4,
         "Weight": 2.75,
         "Handling": 4.25,
-        "Traction/Grip": 4,
+        "Traction": 4,
         "Mini-Turbo": 3.5
     },
     "ShyGuy" : {
@@ -116,7 +116,7 @@
         "Acceleration": 4,
         "Weight": 2.75,
         "Handling": 4.25,
-        "Traction/Grip": 4,
+        "Traction": 4,
         "Mini-Turbo": 3.5
     },
     "Larry" : {
@@ -124,7 +124,7 @@
         "Acceleration": 4,
         "Weight": 2.75,
         "Handling": 4.25,
-        "Traction/Grip": 4,
+        "Traction": 4,
         "Mini-Turbo": 3.5
     },
     "Cat Peach" : {
@@ -132,7 +132,7 @@
         "Acceleration": 4,
         "Weight": 2.75,
         "Handling": 4,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 3.5
     },
     "Inkling Girl" : {
@@ -140,7 +140,7 @@
         "Acceleration": 4,
         "Weight": 2.75,
         "Handling": 4,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 3.5
     },
     "Villager Girl" : {
@@ -148,7 +148,7 @@
         "Acceleration": 4,
         "Weight": 2.75,
         "Handling": 4,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 3.5
     },
     "Peach" : {
@@ -156,7 +156,7 @@
         "Acceleration": 3.75,
         "Weight": 3,
         "Handling": 3.75,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 3.5
     },
     "Daisy" : {
@@ -164,7 +164,7 @@
         "Acceleration": 3.75,
         "Weight": 3,
         "Handling": 3.75,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 3.5
     },
     "Yoshi" : {
@@ -172,7 +172,7 @@
         "Acceleration": 3.75,
         "Weight": 3,
         "Handling": 3.75,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 3.5
     },
     "Tanooki Mario" : {
@@ -180,7 +180,7 @@
         "Acceleration": 3.75,
         "Weight": 3.25,
         "Handling": 3.75,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 3.5
     },
     "Inkling Boy" : {
@@ -188,7 +188,7 @@
         "Acceleration": 3.75,
         "Weight": 3.25,
         "Handling": 3.75,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 3.5
     },
     "Villager Boy" : {
@@ -196,7 +196,7 @@
         "Acceleration": 3.75,
         "Weight": 3.25,
         "Handling": 3.75,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 3.5
     },
     "Luigi" : {
@@ -204,7 +204,7 @@
         "Acceleration": 3.5,
         "Weight": 3.5,
         "Handling": 3.75,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 3.25
     },
     "Iggy" : {
@@ -212,7 +212,7 @@
         "Acceleration": 3.5,
         "Weight": 3.5,
         "Handling": 3.75,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 3.25
     },
     "Mario": {
@@ -220,7 +220,7 @@
         "Acceleration": 3.5,
         "Weight": 3.5,
         "Handling": 3.5,
-        "Traction/Grip": 3.5,
+        "Traction": 3.5,
         "Mini-Turbo": 3.25
     },
     "Ludwig" : {
@@ -228,7 +228,7 @@
         "Acceleration": 3.5,
         "Weight": 3.5,
         "Handling": 3.5,
-        "Traction/Grip": 3.5,
+        "Traction": 3.5,
         "Mini-Turbo": 3.25
     },
     "Link" : {
@@ -236,7 +236,7 @@
         "Acceleration": 3.25,
         "Weight": 3.75,
         "Handling": 3.25,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 3.25
     },
     "King Boo" : {
@@ -244,7 +244,7 @@
         "Acceleration": 3.25,
         "Weight": 3.75,
         "Handling": 3.25,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 3.25
     },
     "Rosalina" : {
@@ -252,7 +252,7 @@
         "Acceleration": 3.25,
         "Weight": 3.75,
         "Handling": 3.25,
-        "Traction/Grip": 3.75,
+        "Traction": 3.75,
         "Mini-Turbo": 3.25
     },
     "Donkey Kong" : {
@@ -260,7 +260,7 @@
         "Acceleration": 3.25,
         "Weight": 4,
         "Handling": 3,
-        "Traction/Grip": 3,
+        "Traction": 3,
         "Mini-Turbo": 3
     },
     "Roy" : {
@@ -268,7 +268,7 @@
         "Acceleration": 3.25,
         "Weight": 4,
         "Handling": 3,
-        "Traction/Grip": 3,
+        "Traction": 3,
         "Mini-Turbo": 3
     },
     "Waluigi" : {
@@ -276,7 +276,7 @@
         "Acceleration": 3.25,
         "Weight": 4,
         "Handling": 3,
-        "Traction/Grip": 3,
+        "Traction": 3,
         "Mini-Turbo": 3
     },
     "Wario" : {
@@ -284,7 +284,7 @@
         "Acceleration": 3,
         "Weight": 4.25,
         "Handling": 2.75,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 2.75
     },
     "Dry Bowser" : {
@@ -292,7 +292,7 @@
         "Acceleration": 3,
         "Weight": 4.25,
         "Handling": 2.75,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 2.75
     },
     "Metal Mario" : {
@@ -300,7 +300,7 @@
         "Acceleration": 3.25,
         "Weight": 4.5,
         "Handling": 3.25,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 3
     },
     "Gold Mario" : {
@@ -308,7 +308,7 @@
         "Acceleration": 3.25,
         "Weight": 4.5,
         "Handling": 3.25,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 3
     },
     "Pink Gold Peach" : {
@@ -316,7 +316,7 @@
         "Acceleration": 3.25,
         "Weight": 4.5,
         "Handling": 3.25,
-        "Traction/Grip": 3.25,
+        "Traction": 3.25,
         "Mini-Turbo": 3
     },
     "Bowser" : {
@@ -324,7 +324,7 @@
         "Acceleration": 3,
         "Weight": 4.5,
         "Handling": 2.5,
-        "Traction/Grip": 3,
+        "Traction": 3,
         "Mini-Turbo": 2.75
     },
     "Morton" : {
@@ -332,7 +332,7 @@
         "Acceleration": 3,
         "Weight": 4.5,
         "Handling": 2.5,
-        "Traction/Grip": 3,
+        "Traction": 3,
         "Mini-Turbo": 2.75
     }
 }
