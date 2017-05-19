@@ -13,6 +13,8 @@
     "copy-webpack-plugin": "^4.0.1",
     "cross-var": "^1.0.3",
     "cssnano": "^3.10.0",
+    "eslint": "^3.19.0",
+    "eslint-config-arenanet": "^3.3.1",
     "gh-pages": "^1.0.0",
     "html-webpack-plugin": "^2.28.0",
     "modular-css-namer": "^5.1.2",
@@ -30,5 +32,18 @@
     "version": "npm run deploy",
     "postversion": "git push --follow-tags",
     "release": "npm version -m \"v%s\""
+  },
+  "eslintConfig": {
+    "extends": "arenanet",
+    "env": {
+      "node": true,
+      "browser": true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "indent": "off"
+    }
   }
 }
