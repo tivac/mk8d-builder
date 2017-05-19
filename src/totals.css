@@ -9,3 +9,9 @@
 
     box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.5);
 }
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
