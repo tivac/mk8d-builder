@@ -6,37 +6,57 @@ import tires from "../data/tires.json";
 import gliders from "../data/gliders.json";
 
 import state from "./state.js";
-import Table from "./table.js";
-import Totals from "./totals.js";
+
+import Layout from "./layout.js";
+import Grid from "./grid.js";
 
 import css from "./index.css";
 
+// For debugging
+window.state = state;
 
-m.mount(document.body, {
-    view() {
-        return [
-            state.character && m(Totals),
-            
-            m(Table, {
-                data : characters,
-                name : "Characters",
-                key  : "character"
-            }),
-            m(Table, {
-                data : karts,
-                name : "Karts",
-                key  : "kart"
-            }),
-            m(Table, {
-                data : tires,
-                name : "Tires",
-                key  : "tire"
-            }),
-            m(Table, {
-                data : gliders,
-                name : "Gliders",
-                key  : "glider"
-            })
-        ];
+m.route(document.body, "/character", {
+    "/character" : {
+        render() {
+            return m(Layout, { title : "Characters" },
+                m(Grid, {
+                    data : characters,
+                    key  : "character"
+                })
+            );
+        }
+    },
+
+    "/kart" : {
+        render() {
+            return m(Layout, { title : "Karts" },
+                m(Grid, {
+                    data : karts,
+                    key  : "kart"
+                })
+            );
+        }
+    },
+
+    "/tire" : {
+        render() {
+            return m(Layout, { title : "Tires" },
+                m(Grid, {
+                    data : tires,
+                    key  : "tire"
+                })
+            );
+        }
+    },
+
+    "/glider" : {
+        render() {
+            return m(Layout, { title : "Gliders" },
+                m(Grid, {
+                    data : gliders,
+                    key  : "glider"
+                })
+            );
+        }
     }
 });

@@ -7,7 +7,7 @@ export default function(init) {
         view(vnode) {
             return m("img", Object.assign({
                 src : `${base}/${vnode.attrs.icon.toLowerCase().replace(/\W/g, "")}.png`
-            }, vnode.attrs.attrs || {}));
+            }, vnode.attrs || {}));
         }
-    }
+    };
 }
