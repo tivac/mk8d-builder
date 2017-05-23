@@ -1,13 +1,31 @@
-.choices {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.title {
+    text-align: center;
 }
 
-.choice {
-    width: 100px;
-    height: 100px;
+.subtitle {
+    display: inline-block;
+    margin-left: 10px;
 
-    background: #666;
-    border: 2px solid #000;
+    font-size: 60%;
+}
+
+.choices { }
+
+.parts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part {
+    flex: 1 0 200px;
+
+    max-height: 128px;
+
+    display: flex;
+    
+    align-content: center;
+    justify-content: center;
 }
