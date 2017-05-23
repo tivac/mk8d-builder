@@ -28,9 +28,11 @@
   "scripts": {
     "predeploy": "webpack -p --env=\"dist\"",
     "deploy": "cross-var \"gh-pages --dist dist --message=\\\"v$npm_package_version\\\"\"",
+    "lint": "eslint .",
     "start": "webpack-dev-server",
     "version": "npm run deploy",
     "postversion": "git push --follow-tags",
+    "prerelease": "npm run lint",
     "release": "npm version -m \"v%s\""
   },
   "eslintConfig": {
