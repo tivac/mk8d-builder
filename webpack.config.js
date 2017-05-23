@@ -39,24 +39,22 @@ module.exports = (env) => ({
     
     plugins : [
         new CSS({
-            css  : "./app.css",
-
+            css   : "./app.css",
             namer : env === "dist" ? "modular-css-namer" : null,
-
-            done : env === "dist" ? [
+            done  : env === "dist" ? [
                 require("cssnano")()
             ] : []
         }),
 
         new HTML({
             title    : `${pkg.description} - v${pkg.version}`,
-            template : './src/index.ejs'
+            template : `./src/index.ejs`
         }),
 
         new Clean([ "./dist" ]),
 
         new Copy([
-            { from : "./src/icons", to : "icons"}
+            { from : "./src/icons", to : "icons" }
         ])
     ],
     

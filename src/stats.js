@@ -27,10 +27,8 @@ export default function() {
                         if(val === 0) {
                             out = ` ${out}`;
                         }
-                    } else {
-                        if(String(out).length < 2) {
-                            out = ` ${out}`;
-                        }
+                    } else if(String(out).length < 2) {
+                        out = ` ${out}`;
                     }
 
                     return m("div", {
@@ -46,4 +44,4 @@ export default function() {
             );
         }
     };
-};
+}

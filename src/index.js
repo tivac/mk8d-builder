@@ -10,15 +10,13 @@ import state from "./state.js";
 import Layout from "./layout.js";
 import Grid from "./grid.js";
 
-import css from "./index.css";
-
 // For debugging
 window.state = state;
 
 m.route(document.body, "/character", {
     "/character" : {
         render() {
-            return m(Layout, { title : "Characters" },
+            return m(Layout,
                 m(Grid, {
                     data : characters,
                     key  : "character"
@@ -29,7 +27,7 @@ m.route(document.body, "/character", {
 
     "/kart" : {
         render() {
-            return m(Layout, { title : "Karts" },
+            return m(Layout,
                 m(Grid, {
                     data : karts,
                     key  : "kart",
@@ -43,7 +41,7 @@ m.route(document.body, "/character", {
 
     "/tire" : {
         render() {
-            return m(Layout, { title : "Tires" },
+            return m(Layout,
                 m(Grid, {
                     data : tires,
                     key  : "tire",
@@ -57,7 +55,7 @@ m.route(document.body, "/character", {
 
     "/glider" : {
         render() {
-            return m(Layout, { title : "Gliders" },
+            return m(Layout,
                 m(Grid, {
                     data : gliders,
                     key  : "glider",
