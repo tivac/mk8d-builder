@@ -6,6 +6,19 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+
+.sort {
+    margin: 5px 10px;
+
+    padding: 10px 20px;
+}
+
+.current {
+    composes: sort;
+
+    text-shadow: 1px 0 #000;
 }
 
 .items {

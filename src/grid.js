@@ -47,6 +47,7 @@ export default function Grid(init) {
                 m("div", { class : css.nav },
                     sorts.map((key) =>
                         m("button", {
+                                class   : key === sort ? css.current : css.sort,
                                 onclick : () => resort(key)
                             },
                             key,

@@ -10,6 +10,8 @@ import state from "./state.js";
 import Layout from "./layout.js";
 import Grid from "./grid.js";
 
+import "./index.css";
+
 // For debugging
 window.state = state;
 

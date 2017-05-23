@@ -9,7 +9,3 @@ html {
 *:after {
     box-sizing: inherit;
 }
-
-table {
-    width: 100%;
-}
