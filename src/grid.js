@@ -55,7 +55,7 @@ export default function Grid(init) {
                     )
                 ),
 
-                m("div", { class : css.items },
+                m("div", { class : css[`items_${vnode.attrs.key}`] },
                     names.map((name) => {
                         var current = state[vnode.attrs.key] === name;
                         
@@ -68,18 +68,21 @@ export default function Grid(init) {
                                 }
                             },
                             
-                            // m("p", { class : css.name }, key),
+                            m("div", { class : css[`icon_${vnode.attrs.key}`] },
+                                m(Icon, {
+                                    type  : vnode.attrs.key,
+                                    icon  : name,
+                                    title : name
+                                })
+                            ),
                             
                             m("div", { class : css.bd },
-                                m("div", { class : css.icon },
-                                    m(Icon, {
-                                        type  : vnode.attrs.key,
-                                        icon  : name,
-                                        title : name
-                                    })
-                                ),
+                                m("p", { class : css.name }, name),
                                 
-                                m(Stats, { data : data[name] })
+                                m(Stats, {
+                                    data     : data[name],
+                                    relative : vnode.attrs.relative
+                                })
                             )
                         );
                     })

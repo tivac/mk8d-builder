@@ -32,7 +32,10 @@ m.route(document.body, "/character", {
             return m(Layout, { title : "Karts" },
                 m(Grid, {
                     data : karts,
-                    key  : "kart"
+                    key  : "kart",
+
+                    // Show relative stats instead of absolute
+                    relative : true
                 })
             );
         }
@@ -43,7 +46,10 @@ m.route(document.body, "/character", {
             return m(Layout, { title : "Tires" },
                 m(Grid, {
                     data : tires,
-                    key  : "tire"
+                    key  : "tire",
+
+                    // Show relative stats instead of absolute
+                    relative : true
                 })
             );
         }
@@ -54,7 +60,10 @@ m.route(document.body, "/character", {
             return m(Layout, { title : "Gliders" },
                 m(Grid, {
                     data : gliders,
-                    key  : "glider"
+                    key  : "glider",
+
+                    // Show relative stats instead of absolute
+                    relative : true
                 })
             );
         }

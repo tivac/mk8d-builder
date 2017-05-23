@@ -7,11 +7,14 @@
 }
 
 .stat {
-    width: 33%;
+    width: 50%;
 
     font-family: 'Droid Sans Mono', monospace;
 }
 
 .stat label {
+    display: inline-block;
+
     font-weight: bold;
+    margin-right: 5px;
 }
