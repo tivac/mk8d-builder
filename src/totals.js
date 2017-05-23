@@ -36,7 +36,7 @@ export default function Totals() {
     }
 
     return {
-        view(vnode) {
+        view() {
             calculate();
 
             return m("div", { class : css.totals },
