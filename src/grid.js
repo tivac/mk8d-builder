@@ -32,8 +32,8 @@ export default function Grid(init) {
             }
 
             return dir === "asc" ?
-                data[a][field] - data[b][field] :
-                data[b][field] - data[a][field];
+                data[a][field] - data[b][field] || a.localeCompare(b) :
+                data[b][field] - data[a][field] || a.localeCompare(b);
         });
     }
 
