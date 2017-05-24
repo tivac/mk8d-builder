@@ -8,24 +8,3 @@
 
     font-size: 60%;
 }
-
-.choices { }
-
-.parts {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.part {
-    flex: 1 0 200px;
-
-    max-height: 128px;
-
-    display: flex;
-    
-    align-content: center;
-    justify-content: center;
-}
