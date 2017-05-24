@@ -1,6 +1,6 @@
 import m from "mithril";
 
-import meta from "../data/meta.json";
+import meta from "../../data/meta.json";
 import css from "./stats.css";
 
 var scale = 0.25;

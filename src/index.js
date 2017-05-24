@@ -7,8 +7,8 @@ import gliders from "../data/gliders.json";
 
 import state from "./state.js";
 
-import Layout from "./layout.js";
-import Grid from "./grid.js";
+import Layout from "./components/layout.js";
+import Grid from "./components/grid.js";
 
 import "./index.css";
 

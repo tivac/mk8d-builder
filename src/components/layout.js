@@ -1,6 +1,6 @@
 import m from "mithril";
 
-import pkg from "../package.json";
+import pkg from "../../package.json";
 
 import Nav from "./nav.js";
 

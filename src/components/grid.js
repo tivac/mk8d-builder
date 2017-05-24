@@ -1,8 +1,9 @@
 import m from "mithril";
 
-import meta from "../data/meta.json";
+import meta from "../../data/meta.json";
 
-import state from "./state.js";
+import state from "../state.js";
+
 import Icon from "./icon.js";
 import Stats from "./stats.js";
 

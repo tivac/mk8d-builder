@@ -1,12 +1,13 @@
 import m from "mithril";
 
-import character from "../data/characters.json";
-import kart from "../data/karts.json";
-import tire from "../data/tires.json";
-import glider from "../data/gliders.json";
-import meta from "../data/meta.json";
+import character from "../../data/characters.json";
+import kart from "../../data/karts.json";
+import tire from "../../data/tires.json";
+import glider from "../../data/gliders.json";
+import meta from "../../data/meta.json";
 
-import state from "./state.js";
+import state from "../state.js";
+
 import Stats from "./stats.js";
 
 import css from "./totals.css";
